@@ -10,6 +10,7 @@ head_include();
 ```
 # 1. html/body.php
 I : head_include() : Initializes with the necessary files in the header
+
 II: nav1() : Creates a navigation bar with dropdowns/(left/right alignment) etc
 ```
     nav1('["'.$nav.

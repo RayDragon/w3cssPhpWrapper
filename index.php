@@ -9,9 +9,8 @@ head_include();
 	$nav="Profile";
 if(isset($_GET['nav']))
 {
-	if($_GET['nav']=='acDet')
-		$nav="acDet";
-	else $nav=$_GET['nav'];
+	$nav=$_GET['nav'];
+        //To show which one is selected
 }
 nav1('["'.$nav.
         '","Home","#",

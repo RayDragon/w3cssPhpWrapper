@@ -12,8 +12,8 @@ if(isset($_GET['nav']))
 	$nav=$_GET['nav'];
         //To show which one is selected
 }
-nav1('["'.$nav.
-        '","Home","#",
+nav1('["'.$nav.'",
+            "Home","#",
             "Profile","?nav=Profile",
             "Search","?nav=Search",
             "My Projects","?nav=My Projects",
